@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+	<title>Caja de Comentarios</title>
+	<style>
+		body{
+			background: #f2f2f2;
+			font-family:  'Roboto', sans-serif;
+		}
+		.comentarios {
+			margin: 20px 0;
+		}
+
+		.form_comentarios textarea{
+			width: 100%;
+			height: 84px;
+			max-width: 100%;
+			min-width: 100%;
+			min-height: 84px;
+			max-height: 300px;
+			padding: 10px;
+			font-family: 'Roboto', sans-serif;
+			line-height: 30px
+			border: 1px solid #4b65d1;	
+			margin-bottom: 20px;
+		}
+
+		.form_comentarios .btn {
+			background: #4b65d1;
+			font-family: 'Roboto', sans-serif;
+			border-radius: 0;
+			color: #fff;
+			margin-bottom: 20px;
+		}
+
+		.form_comentarios .btn:hover {
+			box-shadow: 0px 0px 9px rgba(0,0,0,.35);
+		}
+
+		.media {
+			border-top: 1px solid #bfbfbf;
+			padding-top: 20px;
+		}
+
+		.media img {
+			margin-right: 20px;
+		}
+
+		.media .nombre {
+			color: #4b65d1;
+			margin-bottom: 0;
+		}
+
+		.media .nombre span {
+			font-size: 12px;
+			color: #464646;
+			margin-left: 10px;
+		}
+
+		.media .comentario {
+			margin-bottom: 10px;
+		}
+
+		.media .botones {
+			margin-bottom: 10px
+		}
+
+		.media .botones a {
+			color: #acacac;
+			font-size: 14px;
+			margin-left: 20px;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="row comentarios justify-content-center">
+			<div class="col-6">
+				<form class="form_comentarios d-flex justify-content-end flex-wrap" action="">
+					<textarea name="" id="" cols="30" rows="10" placeholder="Comentario"></textarea>
+					<button class="btn">Comentar</button>
+				</form>
+				<div class="media">
+					<img class="" src="https://blog.marketo.com/content/uploads/2018/04/Matt-Solar-Headshot-200x200-c-default.png" width="64" height="64" alt="">
+					<div class="media-body">
+						<p class="nombre">Jhon Cena <span>7:51pm, Hoy</span></p>
+						<p class="comentario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo placeat, amet maiores repudiandae maxime qui aperiam nostrum aspernatur eius iure odit dolore distinctio deserunt ab.</p>
+						<div class="botones text-right">
+							<a href="#">Responder</a>
+							<a href="#">Editar</a>
+							<a href="#">Borrar</a>
+						</div>
+
+						<div class="media">
+							<img class="" src="https://s3.amazonaws.com/ldx-www-linkdex-com/wordpress/wp-content/uploads/20160531085248/aaeaaqaaaaaaaawuaaaajdu5zwm5ytrllwq0nwmtngyzoc1imgyxltk4odcxnzhlzjlhzg-200x200.jpg" width="64" height="64" alt="">
+							<div class="media-body">
+								<p class="nombre">Julia Ramirez <span>7:51pm, Hoy</span></p>
+								<p class="comentario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo placeat, amet maiores repudiandae maxime qui aperiam nostrum aspernatur eius iure odit dolore distinctio deserunt ab.</p>
+								<div class="botones text-right">
+									<a href="#">Responder</a>
+									<a href="#">Editar</a>
+									<a href="#">Borrar</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="media">
+							<img class="" src="https://amyts.es/wp-content/uploads/2018/01/342-Carolina-Perez-3x3-cm-200x200.jpg" width="64" height="64" alt="">
+							<div class="media-body">
+								<p class="nombre">Carmen Perez <span>7:51pm, Hoy</span></p>
+								<p class="comentario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo placeat, amet maiores repudiandae maxime qui aperiam nostrum aspernatur eius iure odit dolore distinctio deserunt ab.</p>
+								<div class="botones text-right">
+									<a href="#">Responder</a>
+									<a href="#">Editar</a>
+									<a href="#">Borrar</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
